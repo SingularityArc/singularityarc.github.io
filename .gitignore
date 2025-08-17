@@ -1,0 +1,23 @@
+# Ignore PyCharm project files
+.idea/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.swp
+*.tmp
+*~
+
+# Ignore node_modules if you ever add JS tooling
+node_modules/
+
+# Ignore build artifacts (if you add a bundler later)
+dist/
+build/
+
+# Ignore Python virtual environments (just in case)
+.venv/
