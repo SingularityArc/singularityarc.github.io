@@ -72,11 +72,11 @@ nav a { margin-left: 18px; font-weight: 500; }
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr;
   gap: 16px;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  margin: 32px 0;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
+
 @media (min-width: 900px) {
   .grid { grid-template-columns: 1fr 1fr; }
 }
