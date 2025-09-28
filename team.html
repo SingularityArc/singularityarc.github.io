@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Our Team — Singularity Arc Capital</title>
+  <meta name="description" content="About Singularity Arc Capital — research-driven, pairing fundamentals with machine learning." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Singularity Arc Capital",
+    "url": "https://singularityarc.com/",
+    "logo": "https://singularityarc.com/assets/logo.png",
+    "sameAs": [
+      "https://www.linkedin.com/company/singularity-arc-capital"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Scottsdale",
+      "addressRegion": "AZ",
+      "addressCountry": "US"
+    }
+  }
+  </script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a class="brand" href="/">
+        <div class="logo" aria-hidden="true"></div>
+        <div class="brand-name">Singularity Arc Capital</div>
+      </a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/team.html" aria-current="page">Our Team</a>
+        <a href="/contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <h2 class="section-title">Our Team</h2>
+    <div class="split">
+      <article class="card">
+        <img src="/assets/brett.jpg" alt="Brett McKinney" style="width:160px; height:auto;">
+        <p><strong>Brett McKinney, CPA</strong></p>
+        <p><strong>Founder & Portfolio Manager</strong></p>
+        <p>
+          Before founding Singularity Arc Capital, Brett was a Senior Associate at a leading VC/PE tax practice, where he structured Forbes-100-level venture fund allocations, designing bespoke waterfall models from the ground up.
+          This work gave him a rare, inside view of institutional capital mechanics and the discipline required to manage them.
+          Today, he applies that rigor to public markets, building systematic, fundamentals-driven models to uncover mispriced risk and capture inevitable returns.
+        </p>
+      </article>
+    </div>
+
+    <h2 class="section-title">Contact</h2>
+    <div class="card contact">
+      <p><strong>Email:</strong> <a href="mailto:info@singularityarc.com">info@singularityarc.com</a></p>
+      <p><strong>Location:</strong> Scottsdale / Phoenix, Arizona</p>
+    </div>
+
+    <footer>
+      <div class="section-title" style="margin-top:28px;">Important Disclosures</div>
+      <div class="disclosures">
+        <p>This site is for informational purposes only and does not constitute an offer to sell or a solicitation of an offer to buy any security or investment product.
+          Any such offer will be made only by confidential offering documents and only in jurisdictions where permitted by law.
+        </p>
+        <p>Past performance is not indicative of future results. Investing involves risk, including the possible loss of principal.
+          Strategies described may change over time; not all strategies are appropriate for all investors.
+          Any forward‑looking statements are based on assumptions and are subject to change without notice.
+        </p>
+        <p style="margin-top:8px">© <span id="year"></span> Singularity Arc Capital LLC. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
