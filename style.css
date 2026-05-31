@@ -58,7 +58,7 @@ header {
 }
 .brand-name { font-weight: 700; letter-spacing: .2px; }
 
-nav a { margin-left: 18px; font-weight: 500; }
+nav a { margin-left: 18px; font-weight: 500; white-space: nowrap; }
 
 .hero {
   padding: 24px;
